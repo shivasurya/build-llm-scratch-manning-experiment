@@ -13,7 +13,8 @@ import pytorch
 
 ....
 ....
-model_state_dict = torch.load("spam_classifier.pth", map_location=torch.device('cpu')) // modify based on CPU/GPU
+# modify based on CPU/GPU
+model_state_dict = torch.load("spam_classifier.pth", map_location=torch.device('cpu'))
     model.load_state_dict(model_state_dict)
 text_1 = (
     "I love to go to Waterloo university and summer break"
