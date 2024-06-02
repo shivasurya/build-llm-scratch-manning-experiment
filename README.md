@@ -9,7 +9,7 @@ Building LLM from scratch experiment via Manning MEAP
 ### Using Model
 
 ```python
-import pytorch
+import torch
 
 ....
 ....
